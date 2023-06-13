@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'so23'</initValue>
+      <name>ID_employe</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'DaNang_01'</initValue>
+      <name>kimuchi_name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://test-newgps.caeru.biz/sinseitest'</initValue>
+      <name>url_test</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
