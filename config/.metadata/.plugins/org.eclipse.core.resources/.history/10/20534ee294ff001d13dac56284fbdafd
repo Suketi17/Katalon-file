@@ -1,0 +1,108 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('test-newgps.caeru.biz/vitz')
+
+WebUI.maximizeWindow()
+
+WebUI.sendKeys(findTestObject('Folder_Gerenal/Login_Logout/ID_Input'), 'admin')
+
+WebUI.sendKeys(findTestObject('Folder_Gerenal/Login_Logout/Pass_Input'), '1')
+
+WebUI.click(findTestObject('Folder_Gerenal/Login_Logout/Login_click'))
+
+//Check List
+WebUI.mouseOver(findTestObject('勤怠管理/0-勤怠管理'))
+
+WebUI.click(findTestObject('勤怠管理/7-チェックリスト'))
+
+WebUI.click(findTestObject('ZenTai-変更必要/勤務地名＿選択-Zentai'))
+
+WebUI.click(findTestObject('ZenTai-変更必要/チェックリスト/打刻エラー'))
+
+WebUI.click(findTestObject('ZenTai-変更必要/チェックリスト/チェックリストー戻り'))
+
+WebUI.click(findTestObject('ZenTai-変更必要/チェックリスト/要チェックリスト'))
+
+WebUI.delay(5)
+
+//Them lich houmonsaki
+//WebUI.mouseOver(findTestObject('勤怠管理/0-勤怠管理'))
+//
+//WebUI.click(findTestObject('勤怠管理/5-訪問先別勤務情報'))
+//
+//WebUI.click(findTestObject('ZenTai-変更必要/Add lich houmonsaki/Add 訪問'))
+//
+//WebUI.click(findTestObject('ZenTai-変更必要/Add lich houmonsaki/勤務追加'))
+//
+//WebUI.sendKeys(findTestObject('ZenTai-変更必要/Add lich houmonsaki/出勤BOX'), '0900')
+//
+//WebUI.sendKeys(findTestObject('ZenTai-変更必要/Add lich houmonsaki/退勤BOX'), '1500')
+//
+//WebUI.sendKeys(findTestObject('ZenTai-変更必要/Add lich houmonsaki/必要人数'), '1')
+//
+//WebUI.click(findTestObject('ZenTai-変更必要/Add lich houmonsaki/HMSK_Save1'))
+//
+//WebUI.click(findTestObject('ZenTai-変更必要/Add lich houmonsaki/NV追加'))
+//
+//WebUI.sendKeys(findTestObject('ZenTai-変更必要/Add lich houmonsaki/従業員ID＿BOX'), GlobalVariable.Zentai_ID_NV)
+//
+//WebUI.sendKeys(findTestObject('ZenTai-変更必要/Add lich houmonsaki/従業員ID＿BOX'), Keys.chord(Keys.ENTER))
+//
+//WebUI.click(findTestObject('ZenTai-変更必要/Add lich houmonsaki/HMSK_Save2'))
+
+//ShuuKei
+//WebUI.mouseOver(findTestObject('勤怠管理/0-勤怠管理'))
+//
+//WebUI.click(findTestObject('勤怠管理/3-勤怠集計'))
+//
+//WebUI.selectOptionByLabel(findTestObject('ZenTai-変更必要/Shuukei/Chon_2022'), '2022年', false)
+//
+//WebUI.click(findTestObject('ZenTai-変更必要/Shuukei/Lock-Unlock_1'))
+//
+//WebUI.click(findTestObject('ZenTai-変更必要/Shuukei/Lock-Unlock_1'))
+//
+//WebUI.click(findTestObject('ZenTai-変更必要/Shuukei/Lock-Unlock_Full'))
+//
+//WebUI.click(findTestObject('ZenTai-変更必要/Shuukei/Lock-Unlock_Full'))
+
+//Check Setting
+//WebUI.mouseOver(findTestObject('基本情報/0-基本情報'))
+//
+//WebUI.click(findTestObject('基本情報/1-会社情報'))
+//
+//WebUI.sendKeys(findTestObject('ZenTai-変更必要/Check Setting/営業日仕分け'), '0123')
+//
+//WebUI.click(findTestObject('ZenTai-変更必要/Check Setting/Save_cty'))
+//
+//WebUI.mouseOver(findTestObject('勤怠管理/0-勤怠管理'))
+//
+//WebUI.click(findTestObject('勤怠管理/1-勤怠データ管理'))
+//
+//WebUI.delay(5)
+//
+//WebUI.click(findTestObject('基本情報/8-設定'))
+//
+//WebUI.delay(3)
+
+//C
+//WebUI.mouseOver(findTestObject('基本情報/0-基本情報'))
+//
+//WebUI.click(findTestObject('基本情報/1-会社情報'))
+

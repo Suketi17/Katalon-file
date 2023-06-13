@@ -1,0 +1,451 @@
+Not a valid list position.
+Could not find element with Id 'katalon.composer.objectrepository.handledmenuitem.spyweb'
+Could not find element with Id 'com.kms.katalon.composer.integration.analytics.handledtoolitem.katalonTestOps'
+Could not find element with Id 'com.kms.katalon.composer.mobile.dynamicmenucontribution.ios'
+Could not find element with Id 'com.kms.katalon.composer.mobile.dynamicmenucontribution.ios'
+Warning: NLS unused message: Key in: com.kms.katalon.composer.project.constants.composerProjectMessages
+Warning: NLS unused message: Key in: com.kms.katalon.composer.testcase.constants.composerTestcaseMessages
+Warning: NLS missing message: BTN_ADDTESTSUITE in: com.kms.katalon.composer.testcase.constants.composerTestcaseMessages
+Warning: NLS unused message: DIA_LBL_SELECT_TEST_DATA in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS unused message: HAND_WARN_TS_REQUIRES_PLUGIN_DYNAMIC_EXECUTION_TO_OPEN in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS unused message: DIA_INFO_KSE_COMBINE_MULTI_DATASOURCE in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS missing message: DIA_SHELL_DATA_ITERATION in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS missing message: DIA_LBL_TO_ROW in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS missing message: DIA_MSG_START_ROW_BIGGER_THAN_END_ROW in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS missing message: EDI_TITLE_TEST_CASE_BROWSER in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS missing message: DIA_MSG_CHOOSE_DATA_COLUMN in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS missing message: DIA_TABLE_EMPTY_COLUMN in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS missing message: DIA_WARN_MSG_EMPTY_COLUMN_NAME in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS missing message: PA_LBL_TOOLTIP_RETRY_IMMEDIATELY in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS unused message: Key in: com.kms.katalon.composer.objectrepository.constant.composerObjectRepositoryMessages
+WebView Server has been started on port 62245
+Warning: NLS missing message: PA_URL_SUPPORT_PORTAL in: com.kms.katalon.constants.messages
+Warning: NLS missing message: URL_KATALON_SURVEY in: com.kms.katalon.constants.messages
+Warning: NLS missing message: OFFLINE_ACTIVATION in: com.kms.katalon.constants.messages
+Warning: NLS missing message: ENTERPRISE_TRIAL_LICENSE in: com.kms.katalon.constants.messages
+Warning: NLS missing message: ActivationDialogV2_LBL_ENTERPRISE_LICENSE in: com.kms.katalon.constants.messages
+Warning: NLS missing message: About_LBL_EDITION in: com.kms.katalon.constants.messages
+Warning: NLS missing message: DIALOG_TITLE_FIRST_TIME_USE_SURVEY in: com.kms.katalon.constants.messages
+Warning: NLS missing message: BTN_YES_CONTINUE_USE in: com.kms.katalon.constants.messages
+Warning: NLS missing message: BTN_NO_QUIT_USING in: com.kms.katalon.constants.messages
+Warning: NLS missing message: BTN_SEND in: com.kms.katalon.constants.messages
+Warning: NLS missing message: MSG_QUESTION_WILL_CONTINUE_TO_USE in: com.kms.katalon.constants.messages
+Warning: NLS missing message: MSG_QUIT_USING_KATALON_REASON in: com.kms.katalon.constants.messages
+Warning: NLS missing message: MSG_QUIT_USING_KATALON_REASON_PLACEHOLDER in: com.kms.katalon.constants.messages
+Start checking and mark activated for GUI mode
+Start getting machine ID on Windows
+Start appending additional signatures
+hardwareSerialNumber 
+osDependentUsername nguyen duy hau
+End appending additional signatures 23493ff8-ea3d-48a0-a24b-77e00dac5ca1__nguyen duy hau
+End getting machine ID on Windows 728501d57705b3072697d3e5c69aeff7
+Expired License.
+End checking and mark activated for GUI mode
+Your current licensed session is valid until: June 13, 2023 13:30
+Start checking license task
+Warning: NLS unused message: LBL_DEFAULT_LOCATOR_SELECTION_AREA in: com.katalon.plugin.smart_xpath.constant.SmartXpathMessages
+
+Mon Jun 12 13:31:17 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+Warning: NLS unused message: DIA_LBL_LIST_OF_COL_NAMES in: com.kms.katalon.composer.components.impl.constants.composerComponentsImplMessages
+Warning: NLS unused message: DIA_LBL_SELECT_A_COL in: com.kms.katalon.composer.components.impl.constants.composerComponentsImplMessages
+Latest plugins responses: []
+Katalon version: 8.6.5
+Plugin info URL: https://store.katalon.com/api/products/ks?appVersion=8.6.5&appType=KSE&licenseType=FREE
+Katalon TestOps: Unexpected response, URL: https://testops.katalon.io/api/v1/total-execution-comparison?projectId=982699&timeString=2023-06-12T13%3A31%3A43%2B07%3A00, Status: 403, Response: {"error":"access_denied","error_description":"Either this resource does not exist, or the current user does not have permissions to access this resource"}
+
+Mon Jun 12 13:31:44 ICT 2023
+com.kms.katalon.integration.analytics.exceptions.AnalyticsApiExeception: {"error":"access_denied","error_description":"Either this resource does not exist, or the current user does not have permissions to access this resource"}
+	at com.kms.katalon.integration.analytics.providers.AnalyticsApiProvider.executeRequest(AnalyticsApiProvider.java:745)
+	at com.kms.katalon.integration.analytics.providers.AnalyticsApiProvider.executeRequest(AnalyticsApiProvider.java:757)
+	at com.kms.katalon.integration.analytics.providers.AnalyticsApiProvider.getTotalExecutionsStatistics(AnalyticsApiProvider.java:1108)
+	at com.kms.katalon.webserver.handlers.TestOpsProjectInfoHandler.customHandle(TestOpsProjectInfoHandler.java:47)
+	at com.kms.katalon.webserver.CustomHttpHandler.handle(CustomHttpHandler.java:14)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+Katalon TestOps: Unexpected response, URL: https://testops.katalon.io/api/v1/search?q=%7B%0A++%22type%22%3A+%22Execution%22%2C%0A++%22conditions%22%3A+%5B%0A++++%7B%0A++++++%22key%22%3A+%22Project.id%22%2C%0A++++++%22operator%22%3A+%22%5Cu003d%22%2C%0A++++++%22value%22%3A+%22982699%22%0A++++%7D%2C%0A++++%7B%0A++++++%22key%22%3A+%22executionStage%22%2C%0A++++++%22operator%22%3A+%22%5Cu003d%22%2C%0A++++++%22value%22%3A+%22COMPLETED%22%0A++++%7D%2C%0A++++%7B%0A++++++%22key%22%3A+%22status%22%2C%0A++++++%22operator%22%3A+%22%21%5Cu003d%22%2C%0A++++++%22value%22%3A+%22INCOMPLETE%22%0A++++%7D%0A++%5D%2C%0A++%22pagination%22%3A+%7B%0A++++%22page%22%3A+0%2C%0A++++%22size%22%3A+3%2C%0A++++%22sorts%22%3A+%5B%0A++++++%22order%2Cdesc%22%0A++++%5D%0A++%7D%2C%0A++%22groupBys%22%3A+%5B%5D%0A%7D, Status: 403, Response: {"error":"access_denied","error_description":"Either this resource does not exist, or the current user does not have permissions to access this resource"}
+
+Mon Jun 12 13:31:45 ICT 2023
+com.kms.katalon.integration.analytics.exceptions.AnalyticsApiExeception: {"error":"access_denied","error_description":"Either this resource does not exist, or the current user does not have permissions to access this resource"}
+	at com.kms.katalon.integration.analytics.providers.AnalyticsApiProvider.executeRequest(AnalyticsApiProvider.java:745)
+	at com.kms.katalon.integration.analytics.providers.AnalyticsApiProvider.executeRequest(AnalyticsApiProvider.java:757)
+	at com.kms.katalon.integration.analytics.providers.AnalyticsApiProvider.getCompletedExecutions(AnalyticsApiProvider.java:1013)
+	at com.kms.katalon.webserver.handlers.TestOpsProjectInfoHandler.customHandle(TestOpsProjectInfoHandler.java:39)
+	at com.kms.katalon.webserver.CustomHttpHandler.handle(CustomHttpHandler.java:14)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+Katalon TestOps: Unexpected response, URL: https://testops.katalon.io/api/v1/search?q=%7B%0A++%22type%22%3A+%22ProjectStatisticsCustomizeTime%22%2C%0A++%22conditions%22%3A+%5B%0A++++%7B%0A++++++%22key%22%3A+%22Project.id%22%2C%0A++++++%22operator%22%3A+%22%5Cu003d%22%2C%0A++++++%22value%22%3A+%22982699%22%0A++++%7D%2C%0A++++%7B%0A++++++%22key%22%3A+%22startTime%22%2C%0A++++++%22operator%22%3A+%22%5Cu003e%5Cu003d%22%2C%0A++++++%22value%22%3A+%222023-06-06T00%3A00%3A00%2B07%3A00%22%0A++++%7D%2C%0A++++%7B%0A++++++%22key%22%3A+%22startTime%22%2C%0A++++++%22operator%22%3A+%22%5Cu003c%5Cu003d%22%2C%0A++++++%22value%22%3A+%222023-06-12T23%3A59%3A59%2B07%3A00%22%0A++++%7D%0A++%5D%2C%0A++%22pagination%22%3A+%7B%0A++++%22page%22%3A+0%2C%0A++++%22size%22%3A+30%2C%0A++++%22sorts%22%3A+%5B%0A++++++%22name%2Casc%22%0A++++%5D%0A++%7D%2C%0A++%22groupBys%22%3A+%5B%5D%0A%7D, Status: 403, Response: {"error":"access_denied","error_description":"Either this resource does not exist, or the current user does not have permissions to access this resource"}
+
+Mon Jun 12 13:31:45 ICT 2023
+com.kms.katalon.integration.analytics.exceptions.AnalyticsApiExeception: {"error":"access_denied","error_description":"Either this resource does not exist, or the current user does not have permissions to access this resource"}
+	at com.kms.katalon.integration.analytics.providers.AnalyticsApiProvider.executeRequest(AnalyticsApiProvider.java:745)
+	at com.kms.katalon.integration.analytics.providers.AnalyticsApiProvider.executeRequest(AnalyticsApiProvider.java:757)
+	at com.kms.katalon.integration.analytics.providers.AnalyticsApiProvider.getProjectStatisticsInLast7Days(AnalyticsApiProvider.java:1087)
+	at com.kms.katalon.webserver.handlers.TestOpsProjectInfoHandler.customHandle(TestOpsProjectInfoHandler.java:43)
+	at com.kms.katalon.webserver.CustomHttpHandler.handle(CustomHttpHandler.java:14)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+
+Mon Jun 12 13:31:50 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 13:32:01 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 13:32:10 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 13:32:15 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 13:32:20 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 13:32:34 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+Katalon TestOps: Unexpected response, URL: https://testops.katalon.io/api/v1/test-cases/statistics, Status: 403, Response: {"error":"access_denied","error_description":"Either this resource does not exist, or the current user does not have permissions to access this resource"}
+
+Mon Jun 12 13:32:38 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 13:53:39 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+Warning: NLS unused message: PREF_LBL_ACTIVE_BROWSER_PORT_DO_NOT_SHOW_WARNING_DIALOG in: com.kms.katalon.objectspy.constants.objectspyMessages
+
+Mon Jun 12 13:55:52 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+Launcher status after execution process completed: Running
+
+Mon Jun 12 13:59:01 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 13:59:12 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 14:00:28 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 14:00:37 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 14:00:43 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 14:00:46 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+Launcher status after execution process completed: Running
+Launcher status after execution process completed: Terminated
+Launcher status after execution process completed: Terminated
+
+Mon Jun 12 14:20:35 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+Launcher status after execution process completed: Terminated
+Jun 12, 2023 2:25:49 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Jun 12, 2023 2:25:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+Mon Jun 12 14:30:43 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+Launcher status after execution process completed: Terminated
+Launcher status after execution process completed: Terminated
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@207a71b1[0800]
+Launcher status after execution process completed: Terminated
+
+Mon Jun 12 15:00:43 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+Launcher status after execution process completed: Running
+
+Mon Jun 12 15:10:22 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 15:10:55 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 15:11:01 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 15:17:51 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 15:18:00 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 15:21:52 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 15:22:02 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@42679ffb[Folder_Gerenal/choose_work_location/打刻時刻]
+
+Mon Jun 12 15:22:35 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 15:28:50 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 15:29:03 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 15:29:09 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 15:30:43 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+Launcher status after execution process completed: Terminated
+
+Mon Jun 12 15:35:07 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 15:35:23 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 15:35:36 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 15:35:47 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 15:35:59 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 15:36:11 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 15:36:59 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 15:38:41 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@25bc6df1[Folder_Gerenal/choose_work_location/追加]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@77796ae5[1800]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@4e541437[0900]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@746e2606[1800]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@746e2606[1800]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@a27075c[Folder_Gerenal/choose_work_location/追加]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@13a0f81f[0900]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@2e3be2c2[000]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@2807be14[0800]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@11331fe3[1800]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@7ae85a82[Folder_Gerenal/choose_work_location/Input Kimuchi]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@3ddcc759[Folder_Gerenal/choose_work_location/Input Kimuchi]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@bbabf07[Folder_Gerenal/choose_work_location/Input Kimuchi - Select]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@7fd2b83d[Folder_Gerenal/choose_work_location/打刻時刻]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@6837705[Folder_Gerenal/1-31(day)/18]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@61a62675[Folder_Gerenal/choose_work_location/List NV-modori]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@61a62675[Folder_Gerenal/choose_work_location/List NV-modori]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@37cfae4a[Folder_Gerenal/choose_work_location/追加]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@7280817b[Folder_Gerenal/choose_work_location/追加]
+Launcher status after execution process completed: Terminated
+
+Mon Jun 12 15:58:25 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@9fe2e4e[Folder_Gerenal/choose_work_location/List NV-modori]
+
+Mon Jun 12 16:00:43 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 16:01:44 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@2ae39d07[Folder_Gerenal/choose_work_location/Input Kimuchi]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@379e4572[Folder_Gerenal/1-31(day)/11]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@3f021363[Folder_Gerenal/choose_work_location/打刻時刻]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@792ce72e[Folder_Gerenal/choose_work_location/追加]
+
+Mon Jun 12 16:14:31 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+Launcher status after execution process completed: Terminated
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@2fc465cf[Folder_Gerenal/1-31(day)/02]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@3b4e0ed5[Folder_Gerenal/Choose_year_month_day/Next_month5-11]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@62aab49c[Folder_Gerenal/choose_work_location/List NV-modori]
+
+Mon Jun 12 16:19:14 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 16:19:23 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 16:19:39 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 16:19:49 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@7c6182a4[Folder_Gerenal/1-31(day)/2]
+Launcher status after execution process completed: Terminated
+Launcher status after execution process completed: Terminated
+
+Mon Jun 12 16:30:43 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 16:34:53 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@25c0c235[Folder_Gerenal/choose_work_location/追加]
+Launcher status after execution process completed: Running
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@7c6182a4[Folder_Gerenal/1-31(day)/2]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@7d46265a[Folder_Gerenal/choose_work_location/追加]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@7d46265a[Folder_Gerenal/choose_work_location/追加]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@7c6182a4[Folder_Gerenal/1-31(day)/2]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@7c6182a4[Folder_Gerenal/1-31(day)/2]
+Launcher status after execution process completed: Terminated
+
+Mon Jun 12 16:46:00 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@62aab49c[Folder_Gerenal/choose_work_location/List NV-modori]
+
+Mon Jun 12 16:47:53 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 16:48:02 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+Launcher status after execution process completed: Running
+Launcher status after execution process completed: Running
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@2abf569[Folder_Gerenal/1-31(day)/2]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@2abf569[Folder_Gerenal/1-31(day)/2]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@48fd0d3a[Folder_Gerenal/1-31(day)/2]
+
+Mon Jun 12 16:57:25 ICT 2023
+javax.xml.stream.XMLStreamException: ParseError at [row,col]:[18,4]
+Message: The element type "log" must be terminated by the matching end-tag "</log>".
+	at com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:604)
+	at com.kms.katalon.core.logging.XMLLoggerParser.readDocument(XMLLoggerParser.java:149)
+	at com.kms.katalon.core.logging.XMLLoggerParser.readFromString(XMLLoggerParser.java:86)
+	at com.kms.katalon.execution.logging.SocketWatcher.run(SocketWatcher.java:57)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+Launcher status after execution process completed: Running
+
+Mon Jun 12 16:58:44 ICT 2023
+javax.xml.stream.XMLStreamException: ParseError at [row,col]:[18,4]
+Message: The element type "log" must be terminated by the matching end-tag "</log>".
+	at com.sun.org.apache.xerces.internal.impl.XMLStreamReaderImpl.next(XMLStreamReaderImpl.java:604)
+	at com.kms.katalon.core.logging.XMLLoggerParser.readDocument(XMLLoggerParser.java:149)
+	at com.kms.katalon.core.logging.XMLLoggerParser.readFromString(XMLLoggerParser.java:86)
+	at com.kms.katalon.execution.logging.SocketWatcher.run(SocketWatcher.java:57)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+Launcher status after execution process completed: Terminated
+
+Mon Jun 12 17:00:43 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+Launcher status after execution process completed: Running
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@396869c8[Folder_Gerenal/choose_work_location/List NV-modori]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@79e75f93[Folder_Gerenal/Choose_year_month_day/Choose_year2021]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@79e75f93[Folder_Gerenal/Choose_year_month_day/Choose_year2021]
+
+Mon Jun 12 17:20:26 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 17:21:50 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 17:25:02 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 17:26:44 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@2d1ff2b[Folder_Gerenal/choose_work_location/Input Kimuchi - Select]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@14d9fed7[Folder_Gerenal/1-31(day)/12]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@14d9fed7[Folder_Gerenal/1-31(day)/12]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@73b537ba[Folder_Gerenal/1-31(day)/27]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@203614d5[Folder_Gerenal/1-31(day)/12]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@1caa78eb[Folder_Gerenal/1-31(day)/12]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@1caa78eb[Folder_Gerenal/1-31(day)/12]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@1caa78eb[Folder_Gerenal/1-31(day)/12]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@1caa78eb[Folder_Gerenal/1-31(day)/12]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@2e838d89[Folder_Gerenal/1-31(day)/25]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@39dd4061[Folder_Gerenal/1-31(day)/24]
+CodeSelectRequestor: Could not proceed due to null declaring type for org.codehaus.groovy.ast.expr.ConstantExpression@53144c02[Folder_Gerenal/choose_work_location/打刻時刻]
+
+Mon Jun 12 17:28:04 ICT 2023
+Azure: Enterprise license for this feature is requested
+
+
+Mon Jun 12 17:30:43 ICT 2023
+Azure: Enterprise license for this feature is requested
+
